@@ -1,8 +1,8 @@
-# Fala, Tarnished_Lucy! Tudo beleza?
+# Leia tudo, Fer, seu N00b?
 
-Aqui é o seu tio (ou sua tia, sabe como é, a gente faz de tudo pra ver você voar!), e eu preparei esse projetinho com muito carinho para você dar os primeiros passos no mundo da programação, já botando a mão na massa com coisas que o mercado usa de verdade. 
+Preparei esse projetinho para você passar muita raiva e se divertir muito. 
 
-Eu sei que você curte muito carros e quer aprender a base de **TypeScript/JavaScript, Python, Bancos de Dados (SQL/SQLite) e ferramentas como Git e PowerShell**. Então, a gente uniu o útil ao agradável! 
+Bom, vocêr quer aprender a base de **TypeScript/JavaScript, Python, Bancos de Dados (SQL/SQLite) e ferramentas como Git e PowerShell**, né? Então, já uni o útil ao agradável.
 
 Bem-vindo ao **MyCarIdentity**! O objetivo desse app (que você vai construir quase todo) é responder a pergunta: *Qual carro reflete a sua personalidade?* E mais: *Com base na minha renda e capacidade de investimento, qual carro combina comigo?*
 
@@ -74,4 +74,4 @@ Agora é com você. O projeto tem a base, mas não faz o que prometemos ainda. A
 - Para SQL: w3schools.com/sql
 - Sobre Algoritmos de recomendação: Pesquise por "Sistemas de recomendação baseados em conhecimento" (Knowledge-based recommender systems). Não precisa usar Inteligência Artificial por enquanto, matemática simples e `IFs` resolvem muito bem para começar!
 
-Mãos à obra, Tarnished_Lucy! O mundo da programação é quebrar a cabeça até funcionar. Eu acredito em você, agora vai lá e faz esse app de carros rodar! 🏎️💨
+Mãos à obra O mundo da programação é quebrar a cabeça até funcionar. Eu acredito em você, agora vai lá e faz esse app de carros rodar! 🏎️💨
