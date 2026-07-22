@@ -1,8 +1,8 @@
-# Fala, Tarnished_Lucy! Tudo beleza?
+# Leia tudo, Fer, seu N00b?
 
-Aqui é o Fer, e eu montei esse projeto com muito carinho pra você dar os primeiros passos de verdade no mundo da programação. Nada de tutorial genérico de TODO list — a gente vai aprender construindo algo que você curte: **carros**.
+Preparei esse projetinho para você passar muita raiva e se divertir muito. 
 
-Eu sei que você quer aprender **TypeScript/JavaScript, Python, SQL, Git e terminal (PowerShell/Bash)**. Então juntei tudo num projeto só. Quando terminar isso aqui, você vai ter tocado em praticamente tudo que um dev junior precisa saber.
+Bom, vocêr quer aprender a base de **TypeScript/JavaScript, Python, Bancos de Dados (SQL/SQLite) e ferramentas como Git e PowerShell**, né? Então, já uni o útil ao agradável.
 
 Bem-vindo ao **MyCarIdentity**! 🏎️
 
@@ -114,80 +114,4 @@ npm run dev
 
 ## 📖 Por onde começar a estudar
 
-### Se você é COMPLETAMENTE iniciante:
-1. Leia o `ARQUITETURA.md` inteiro. Sem pressa, com calma. Esse documento explica tudo.
-2. Aprenda a usar o terminal (PowerShell): `cd`, `ls` (ou `dir`), `mkdir`, `cat`.
-3. Aprenda Git básico: `git status`, `git add .`, `git commit -m "mensagem"`, `git push`.
-4. Rode o backend e o frontend pra ver funcionando. Brinque com o Swagger UI.
-5. Abra o `database.py` e tente entender o SQL ali dentro.
-
-### Se você já sabe o básico:
-1. Leia o `ARQUITETURA.md`, foque na Seção 6 (Motor de Recomendação) e Seção 7 (Roadmap).
-2. Reescreva o `App.tsx` pra integrar os componentes (`QuizForm`, `ResultPanel`).
-3. Rode o quiz completo e veja o resultado chegando do backend.
-4. Melhore o algoritmo do `recommender.py` — ele tá funcional mas bem basicão.
-
-### Ordem recomendada de estudo (o que eu faria no seu lugar):
-```
-1º  Terminal / PowerShell / Bash
-2º  Git (add, commit, push, branch, merge)
-3º  SQL (SELECT, INSERT, WHERE, JOIN)  ← brinque no database.db
-4º  Python básico (variáveis, funções, listas, dicts)
-5º  FastAPI (rotas, modelos, Swagger)
-6º  TypeScript (tipos, interfaces, genéricos)
-7º  React (componentes, useState, useEffect, fetch)
-8º  CSS (flexbox, grid, variáveis, responsivo)
-```
-
----
-
-## 🔧 Recursos e onde pesquisar
-
-| O que estudar                        | Onde ir                                        |
-|--------------------------------------|------------------------------------------------|
-| Python básico                        | https://docs.python.org/pt-br/3/tutorial/      |
-| FastAPI (tutorial oficial, perfeito)  | https://fastapi.tiangolo.com/tutorial/          |
-| SQL do zero                          | https://www.w3schools.com/sql/                  |
-| React (doc oficial, atualizada)      | https://react.dev/learn                         |
-| TypeScript                           | https://www.typescriptlang.org/docs/handbook/   |
-| Git pra iniciante                    | https://learngitbranching.js.org/               |
-| Preços de carro (FIPE)              | https://veiculos.fipe.org.br/                   |
-| API FIPE gratuita                    | https://brasilapi.com.br/docs#tag/FIPE          |
-| Datasets de carros (Kaggle)          | Procure "brazil cars dataset" no kaggle.com     |
-| Notas de segurança                   | https://www.latinncap.com/                      |
-| CSS Flexbox (jogo divertido)         | https://flexboxfroggy.com/                      |
-| CSS Grid (outro jogo)               | https://cssgridgarden.com/                      |
-
----
-
-## 🎯 Seus desafios (por ordem de dificuldade)
-
-1. **[Fácil]** Rode o backend e use o Swagger UI pra listar os carros. Copie a resposta JSON e cole num arquivo `.json` pra estudar a estrutura.
-
-2. **[Fácil]** Adicione 5 carros novos no `database.py` (pesquise preços reais na FIPE).
-
-3. **[Médio]** Reescreva o `App.tsx` pra mostrar o `QuizForm` e, quando o quiz terminar, mostrar o `ResultPanel`.
-
-4. **[Médio]** No `recommender.py`, melhore a geração de `justificativa` — em vez de um texto genérico, explique POR QUE aquele carro combina (ex: "Seu perfil econômico casa com o custo-benefício nota 5 do Onix").
-
-5. **[Difícil]** Implemente o passo 4 do quiz (Prioridades) com checkboxes bonitos, onde o usuário arrasta pra ordenar por importância.
-
-6. **[Difícil]** Adicione gráficos (pode usar a lib `recharts`) comparando os carros recomendados em radar chart (segurança vs conforto vs desempenho vs custo-benefício).
-
-7. **[Boss Fight]** Integre com a API da FIPE (BrasilAPI) pra puxar preços atualizados automaticamente, em vez de ter tudo hardcoded no banco.
-
----
-
-## 💡 Dicas de ouro
-
-- **Não tente fazer tudo de uma vez.** Vai por etapas, segue o roadmap do `ARQUITETURA.md`.
-- **Commite sempre.** Fez uma feature funcionar? `git add . && git commit -m "Adiciona filtro por categoria"`. Não espera acumular.
-- **Usa branches.** Nunca code direto na `main`. Cria uma branch: `git checkout -b feat/minha-feature`.
-- **Quando travar, lê o erro.** 90% dos bugs estão na mensagem de erro. Lê com calma, pesquisa no Google/StackOverflow.
-- **O Swagger UI é seu melhor amigo.** Testa os endpoints lá antes de tentar chamar pelo frontend.
-
----
-
-Bora, Tarnished_Lucy! A garagem tá aberta, as ferramentas estão na mesa. Agora é contigo. 🔧🏎️💨
-
-— Fer
+Mãos à obra O mundo da programação é quebrar a cabeça até funcionar. Eu acredito em você, agora vai lá e faz esse app de carros rodar! 🏎️💨
