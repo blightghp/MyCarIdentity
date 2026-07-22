@@ -1,0 +1,39 @@
+:root {
+  /* paleta inspirada nos painéis dos carros à noite */
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-tertiary: #334155;
+  
+  --text-main: #f8fafc;
+  --text-muted: #cbd5e1;
+  
+  --accent-blue: #3b82f6; /* azulzinho neon meio painel de volks */
+  --accent-cyan: #06b6d4;
+  --accent-red: #ef4444; /* pra quando a parcela tá alta demais kkk */
+  --accent-green: #22c55e;
+  --accent-yellow: #eab308;
+  
+  /* tipografia de cria */
+  --font-sans: system-ui, -apple-system, sans-serif;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  
+  /* espaçamento base (multiplos de 4 ou 8 pq fica bonitinho) */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  
+  /* bordas arredondadas padrãozao */
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  
+  /* animacao */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+}

@@ -1,22 +1,35 @@
 from fastapi import FastAPI
-import sqlite3
+from fastapi.middleware.cors import CORSMiddleware
+from routes import router
+from database import create_tables, seed_data
 
-app = FastAPI()
+# cria a instancia do app
+app = FastAPI(
+    title="MyCarIdentity API",
+    description="API do MyCarIdentity - descubra qual carro combina com vc",
+    version="0.1.0"
+)
 
-def get_db_connection():
-    conn = sqlite3.connect('database.db')
-    conn.row_factory = sqlite3.Row
-    return conn
+# libera o cors pro frontend conseguir chamar a api sem dar erro maluco
+# TODO: em produção limitar as origins direito
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# registra as rotas
+app.include_router(router)
+
+# inicializa o banco quando o servidor sobe
+@app.on_event("startup")
+def startup_event():
+    create_tables()
+    seed_data()
+    print("banco de dados pronto e populado!")
 
 @app.get("/")
 def read_root():
-    return {"message": "Bem-vindo à API do MyCarIdentity, Tarnished_Lucy!"}
-
-@app.get("/cars")
-def get_cars():
-    conn = get_db_connection()
-    cars = conn.execute('SELECT * FROM cars').fetchall()
-    conn.close()
-    return [dict(car) for car in cars]
-
-# Desafio: criar um endpoint /recommend que receba a renda e a personalidade do usuário e sugira um carro!
+    return {"message": "Fala! Bem-vindo à API do MyCarIdentity 🏎️"}
